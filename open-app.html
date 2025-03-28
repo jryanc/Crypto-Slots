@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Slots Launcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #6200ee;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .button {
+            display: block;
+            background-color: #6200ee;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .instructions {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        code {
+            background-color: #e0e0e0;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Slots Launcher</h1>
+        
+        <a href="http://localhost:19006/" class="button" target="_blank">Open Crypto Slots App</a>
+        
+        <div class="instructions">
+            <h2>How to Run the Application:</h2>
+            <ol>
+                <li>Open Command Prompt (cmd)</li>
+                <li>Navigate to the server directory:
+                    <br><code>cd C:\Users\jryan\Desktop\crypto-slots\server</code>
+                </li>
+                <li>Install server dependencies (if not already installed):
+                    <br><code>npm install</code>
+                </li>
+                <li>Start the server:
+                    <br><code>npm run dev</code>
+                </li>
+                <li>Open another Command Prompt window</li>
+                <li>Navigate to the client directory:
+                    <br><code>cd C:\Users\jryan\Desktop\crypto-slots\client</code>
+                </li>
+                <li>Install client dependencies (if not already installed):
+                    <br><code>npm install</code>
+                </li>
+                <li>Start the client:
+                    <br><code>npm start</code>
+                </li>
+                <li>Once both server and client are running, click the button above to open the app</li>
+            </ol>
+        </div>
+        
+        <h2>Troubleshooting:</h2>
+        <ul>
+            <li>Make sure both server and client are running before clicking the button</li>
+            <li>If you see "Cannot GET /", the server might not be running correctly</li>
+            <li>Check the command prompts for any error messages</li>
+            <li>The client might open on a different port. Check the command prompt output for the correct URL</li>
+        </ul>
+    </div>
+</body>
+</html>
